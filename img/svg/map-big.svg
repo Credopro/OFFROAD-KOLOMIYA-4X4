@@ -1,13 +1,8 @@
-<svg width="320" height="486" viewBox="0 0 320 486" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="17" y="100" width="286" height="286">
-<circle cx="160" cy="243" r="143" fill="#C4C4C4"/>
-</mask>
-<g mask="url(#mask0)">
+<svg width="422" height="523" viewBox="0 0 422 523" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g style="mix-blend-mode:lighten">
-<rect x="-45.2051" y="-33.7051" width="421.85" height="522.665" rx="40" fill="url(#pattern0)"/>
+<rect width="421.85" height="522.665" rx="40" fill="url(#pattern0)"/>
 </g>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M173.108 214.877C173.108 217.121 172.488 219.221 171.408 221.014L161.192 238.71L150.975 221.014C149.896 219.221 149.275 217.121 149.275 214.877C149.275 208.295 154.61 202.96 161.192 202.96C167.773 202.96 173.108 208.295 173.108 214.877ZM161.192 220.12C164.482 220.12 167.15 217.453 167.15 214.162C167.15 210.871 164.482 208.204 161.192 208.204C157.901 208.204 155.233 210.871 155.233 214.162C155.233 217.453 157.901 220.12 161.192 220.12Z" fill="#3D5AF1"/>
-</g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M218.313 248.582C218.313 250.827 217.693 252.926 216.614 254.719L206.397 272.415L196.18 254.719C195.101 252.926 194.48 250.827 194.48 248.582C194.48 242 199.815 236.665 206.397 236.665C212.978 236.665 218.313 242 218.313 248.582ZM206.397 253.825C209.688 253.825 212.355 251.158 212.355 247.867C212.355 244.576 209.688 241.909 206.397 241.909C203.106 241.909 200.438 244.576 200.438 247.867C200.438 251.158 203.106 253.825 206.397 253.825Z" fill="#3D5AF1"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="scale(0.000847458 0.000683995)"/>
