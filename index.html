@@ -51,72 +51,29 @@
 				<span class="humburger_middle"></span>
 				<span></span>
 			</div>
-			<div class="fixed__search">
-				<div class="fixed__search_underline">
-					<span class="search_text uppercase">пошук</span>
-				</div>
-
-				<img class="search_icon" src="img/svg/search.svg" alt="search">
+			<div class="fixed__coordinates">
+					<a class="coordinates" href="#CONTACTS">
+						<span class="coordinates_text uppercase">адреса</span>
+						<img class="coordinates_icon" src="img/svg/geolocation.svg" alt="geolocation">
+					</a>
 			</div>
 		</div>
 	</div>
-<!--	Menu burger-->
-	<div class="menu-burger">
-		<ul class="menu-burger__list ">
-			<li class="menu-burger__item menu_border">
-				<button class="menu-burger__text uppercase btn ">меню</button>
-				<span class="menu-burger__close"></span>
-			</li>
-			<li class="menu-burger__item item">
-				<a class="btn" href="">
-					<img src="../img/svg/sto.svg" alt="sto" class="item_icon">
-					<p class="item_text">
-						<span class="uppercase header__item_sto">сто</span>
-					</p>
-				</a>
-			</li>
-			<li class="menu-burger__item item">
-				<a class="btn" href="">
-					<img src="img/svg/basket.svg" alt="basket" class="item_icon">
-					<p class="item_text">
-						<span class="uppercase">магазин</span> <br>
-						автозапчастин
-					</p>
-				</a>
-			</li>
-			<li class="menu-burger__item item">
-				<a class="btn" href="">
-					<img src="img/svg/club.svg" alt="club" class="item_icon">
-					<p class="item_text">
-						<span class="uppercase">клуб 4х4</span>
-					</p>
-				</a>
-			</li>
-			<li class="menu-burger__item item">
-				<a class="btn" href="">
-					<img src="img/svg/geolocation.svg" alt="geolocation" class="item_icon">
-					<p class="item_text">
-						<span class="uppercase">контакти</span>
-					</p>
-				</a>
-			</li>
-		</ul>
-	</div>
 <!--Scroll-->
-	<ul class="menu">
-		<li class="menu__item active">
+	<ul class="scroll">
+		<li class="scroll__item active">
 			<a aria-label="First screen" href="#"></a>
 		</li>
-		<li class="menu__item">
+		<li class="scroll__item">
 			<a aria-label="Second screen" href="#"></a>
 		</li>
-		<li class="menu__item">
+		<li class="scroll__item">
 			<a aria-label="Third screen" href="#"></a>
 		</li>
-		<li class="menu__item">
+		<li class="scroll__item">
 			<a aria-label="Fourth screen" href="#"></a>
 		</li>
-		<li class="menu__item">
+		<li class="scroll__item">
 			<a aria-label="Fifth screen" href="#"></a>
 		</li>
 		<button class="scroll-button">
@@ -125,11 +82,11 @@
 		</button>
 	</ul>
 	<!--	Header -->
-		<div class=" header wrap section">
+		<div id="HOME" class=" header wrap section">
 				<h1 class="header__title title uppercase">offroad kolomiya 4x4</h1>
 				<ul class="header__list">
 					<li class="item">
-						<a class="btn" href="">
+						<a class="btn" href="#STO">
 							<img src="../img/svg/sto.svg" alt="sto" class="item_icon">
 							<p class="item_text">
 								<span class="uppercase header__item_sto">сто</span>
@@ -137,16 +94,16 @@
 						</a>
 					</li>
 					<li class="item">
-						<a class="btn" href="">
+						<a class="btn" href="#SHOP">
 							<img src="img/svg/basket.svg" alt="basket" class="item_icon">
-							<p class="item_text">
+							<p class="item_text header__item_shop">
 								<span class="uppercase">магазин</span> <br>
 								автозапчастин
 							</p>
 						</a>
 					</li>
 					<li class="item">
-						<a class="btn" href="">
+						<a class="btn" href="#CLUB">
 							<img src="img/svg/club.svg" alt="club" class="item_icon">
 							<p class="item_text">
 								<span class="uppercase">клуб 4х4</span>
@@ -154,8 +111,8 @@
 						</a>
 					</li>
 					<li class="item">
-						<a class="btn" href="">
-							<img src="img/svg/geolocation.svg" alt="geolocation" class="item_icon">
+						<a class="btn" href="#CONTACTS">
+							<img src="img/svg/geolocation_white.svg" alt="geolocation" class="item_icon">
 							<p class="item_text">
 								<span class="uppercase">контакти</span>
 							</p>
@@ -165,7 +122,7 @@
 				</ul>
 		</div>
 	<!--	STO 4x4 -->
-		<section class="section__sto section wrap section">
+		<section id="STO" class="section__sto section wrap section">
 			<h2 class="title uppercase">сто 4x4 </h2>
 			<div class="content">
 				<img class="section__img" src="img/svg/sto.svg" alt="sto" >
@@ -213,7 +170,7 @@
 			</ul>
 		</section>
 	<!--	SHOP AUTO PARTS -->
-	<section class="section__shop section wrap">
+	<section id="SHOP" class="section__shop section wrap">
 		<h2 class="title uppercase">магазин автозапчастин</h2>
 		<ul class="shop__list">
 			<li class="item ">
@@ -278,7 +235,7 @@
 	</section>
 
 	<!--	CLUB 4x4 -->
-	<section class="section__club section wrap">
+	<section id="CLUB" class="section__club section wrap">
 		<div class="club__block_title">
 			<div class="title__club_logo"></div>
 			<h2 class="title uppercase">клуб 4х4 </h2>
@@ -331,7 +288,7 @@
 		</ul>
 	</section>
 	<!--	CONTACTS -->
-	<section class="section__contacts section wrap">
+	<section id="CONTACTS" class="section__contacts section wrap">
 		<h2 class="title uppercase">контакти</h2>
 		<div class="contacts__info">
 			<p class="contacts__time-work">з Пн. по Пт. з 9.00 до 18.00</p>
@@ -356,7 +313,7 @@
 	</section>
 
 	<!--	FOOTER -->
-	<footer class="footer fixed__bottom">
+	<footer id="FOOTER" class="footer fixed__bottom">
 		<div class="footer__address">
 			<p class="bold">Адреса:</p>
 			<p class="">вул. Івана Майданського, 12,</p>
@@ -373,23 +330,23 @@
 		<div class="footer__menu">
 			<ul class="footer__menu_link">
 				<li class="footer__menu_item">
-					<a href="#">
+					<a href="#STO">
 						<img  class="footer__menu_icon" src="img/svg/sto.svg" alt="sto" >
 					</a>
 				</li>
 				<li class="footer__menu_item">
-					<a href="#" >
+					<a href="#SHOP" >
 						<img class="footer__menu_icon" src="img/svg/basket.svg" alt="shop" >
 					</a>
 				</li>
 				<li class="footer__menu_item">
-					<a href="#" >
+					<a href="#CLUB" >
 						<img class="footer__menu_icon" src="img/svg/club.svg" alt="club 4x4" >
 					</a>
 				</li>
 				<li class="footer__menu_item">
-					<a href="#" >
-						<img class="footer__menu_icon" src="img/svg/geolocation.svg" alt="contacts" >
+					<a href="#CONTACTS" >
+						<img class="footer__menu_icon" src="img/svg/geolocation_white.svg" alt="contacts" >
 					</a>
 				</li>
 			</ul>
